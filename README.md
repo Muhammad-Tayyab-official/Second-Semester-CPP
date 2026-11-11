@@ -1,33 +1,63 @@
 # Second Semester C++ Programming
 
-A collection of C++ practice programs and lab exercises developed during my second semester. The source files are organized by topic in the downloadable archive.
+A curated collection of **74 C++ practice programs and lab exercises** completed while learning programming fundamentals during the second semester.
 
-## Topics covered
-- Basic input/output and arithmetic
-- Conditional statements and decision making
-- Loops, number problems and patterns
-- Functions
-- Small console-based exercises
+<p align="center">
+  <a href="https://github.com/Muhammad-Tayyab-official/Second-Semester-CPP">
+    <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+  </a>
+  <img src="https://img.shields.io/badge/Programs-74-2ea44f?style=for-the-badge" alt="74 programs">
+  <img src="https://img.shields.io/badge/Level-Beginner-blueviolet?style=for-the-badge" alt="Beginner level">
+</p>
 
-## Get the source code
+## What's included
 
-Download **[Second-Semester-CPP-Source.tar.xz](Second-Semester-CPP-Source.tar.xz)** and extract it to access the folders and individual `.cpp` programs.
+The collection covers foundational programming concepts through small, independent console-based exercises:
 
-## Compile and run
+- **Input / Output:** reading values, displaying results, basic arithmetic and conversions
+- **Conditionals:** decision making with `if`, `else` and related logic
+- **Loops:** repetition, number-based problems and practice tasks
+- **Functions:** breaking programs into reusable blocks
+- **Other exercises:** additional classroom and practice programs
 
-Install a C++ compiler such as GCC. Compile an individual source file from the extracted folder:
+## Repository contents
+
+The complete source collection is provided in the compressed archive:
+
+**[Download C++ source archive](Second-Semester-CPP-Source.tar.xz)**
+
+The archive contains 74 `.cpp` files arranged in topic folders, along with standalone practice programs. Generated `.exe` files and temporary editor files are intentionally excluded.
+
+## Extract and run
+
+1. Download `Second-Semester-CPP-Source.tar.xz` from this repository.
+2. Extract the archive using 7-Zip (Windows) or `tar` (Linux/macOS).
+3. Open a terminal in the extracted `Second-Semester-CPP` folder.
+4. Compile an individual source file with GCC:
 
 ```bash
 g++ "Conditionals/area.cpp" -std=c++17 -o area
+```
+
+Run it:
+
+```bash
 ./area
 ```
 
-On Windows, run the generated `area.exe`. Each source file is a separate exercise and should generally be compiled independently.
+On Windows:
 
-## Notes
-- The collection includes C++ source files, not generated `.exe` binaries or temporary editor files.
-- Some programs are exploratory learning exercises and may need corrections or further testing.
-- Original file names and code are preserved wherever practical.
+```bash
+area.exe
+```
+
+Each source file is a separate exercise and should generally be compiled independently.
+
+## Learning note
+
+This repository is a record of my programming practice and academic learning. Some exercises are exploratory and may need refinement or additional testing. The original source code and filenames have been preserved wherever practical.
 
 ---
-Academic C++ learning archive.
+
+**Author:** [Muhammad Tayyab](https://github.com/Muhammad-Tayyab-official)  
+**Academic focus:** Mathematics with Data Science
